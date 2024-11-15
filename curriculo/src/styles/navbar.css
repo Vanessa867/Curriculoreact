@@ -1,0 +1,39 @@
+/* Navbar CSS */
+nav {
+    background-color: #333; /* Cor de fundo escura para a navbar */
+    padding: 10px 0; /* Espaçamento superior e inferior */
+    position: fixed; /* Fixa a navbar no topo da tela */
+    width: 100%; /* Garantir que a navbar ocupe toda a largura da tela */
+    top: 0; /* Fixa no topo */
+    z-index: 1000; /* Garante que a navbar fique sobre outros elementos */
+  }
+  
+  nav ul {
+    display: flex; /* Usando flexbox para disposição horizontal */
+    justify-content: center; /* Centraliza os itens */
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px; /* Espaçamento entre os itens */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Cor do texto dos links */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 0.3s ease; /* Suaviza a transição de cor no hover */
+  }
+  
+  nav ul li a:hover {
+    color: #0073e6; /* Cor do link ao passar o mouse */
+  }
+  
+  .content {
+    padding-top: 60px; /* Ajusta o conteúdo para que não fique por baixo da navbar fixa */
+  }
+  
+  

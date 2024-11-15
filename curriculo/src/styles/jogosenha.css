@@ -1,0 +1,39 @@
+.jogo-senha {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jogo-senha input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  width: 60%;
+}
+
+.jogo-senha button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #650279;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.jogo-senha button:hover {
+  background-color: #5a0264;
+}
+
+.jogo-senha ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.jogo-senha li {
+  padding: 5px 0;
+}
